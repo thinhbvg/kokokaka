@@ -1,0 +1,322 @@
+    *,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #231f20;
+        font-family: "cambria", "Times";
+        position: relative;
+        height: 100%;
+    }
+    
+    #body-kokokaka {
+        padding-left: 18px;
+        width: 100%;
+    }
+    
+    .nopadding {
+        margin: 0 !important;
+        padding: 0 !important;
+        float: left;
+    }
+    
+    .img-koko {
+        /*        padding: 0 0 1px 1px;*/
+        /*
+        border-bottom: 1px solid transparent;
+        border-left: 1px solid transparent;
+*/
+        position: relative;
+        width: 100%;
+    }
+    
+    .img-koko img {
+        width: 100%;
+    }
+    
+    .detail {
+        background-color: #82ca9c;
+        text-align: left;
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        /*        300px / 329.25px*/
+        width: 91.11617312072893%;
+        /*        width: 300px;*/
+        display: none;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+    
+    .detail-big {
+        background-color: #82ca9c;
+        text-align: left;
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        /*        300px / 655.5px*/
+        /*        width: 45.76659038901602%;*/
+        width: 300px;
+        display: none;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+    
+    .img-koko:hover .detail-big {
+        display: block;
+    }
+    
+    .img-koko:hover {
+        cursor: pointer;
+    }
+    
+    .img-koko:hover .detail {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .border-bottom-black {
+        background-color: #231f20;
+        height: 1px;
+        /*        280px / 300px*/
+        width: 93.33333333333333%;
+        /*        width: 280px;*/
+        margin-bottom: 10px;
+    }
+    
+    .detail h4 {
+        font-weight: bold;
+    }
+    
+    .detail h7 {
+        font-size: 12px;
+    }
+    
+    .img-koko:hover .detail {
+        display: block;
+    }
+    /**************************************/
+    
+    #menu-wrapper> img {
+        width: 281px;
+        height: 172px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    
+    #list-menu {
+        border-bottom: 1px solid #231f20;
+        padding-bottom: 10px;
+    }
+    
+    #list-menu span {
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    #list-menu span:first-child {
+        padding-left: 0;
+        text-decoration: underline;
+    }
+    
+    #list-menu span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    #input-search {
+        border-bottom: 1px solid #231f20;
+        padding: 10px 0;
+        font-size: 0.9em;
+    }
+    
+    #input-search input {
+        width: 100%;
+        display: inline-block;
+        outline: none;
+        background-color: #52745e;
+        font-size: 1em;
+        padding: 8px;
+        color: #fff;
+        border: none;
+    }
+    
+    #contact {
+        padding: 10px 0;
+        border-bottom: 1px solid #231f20;
+        font-size: 0.9em;
+        font-style: italic;
+    }
+    
+    #contact div {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+    
+    #contact div span {
+        padding-left: 18px;
+    }
+    
+    #contact div span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    #contact div img {
+        position: absolute;
+        top: 4px;
+    }
+    
+    #pinterest {
+        padding: 10px 0;
+        border-bottom: 1px solid #231f20;
+        font-size: 0.9em;
+    }
+    
+    #pinterest img {
+        width: 23%;
+        padding-left: 10px;
+    }
+    
+    #pinterest img:hover {
+        cursor: pointer;
+    }
+    
+    #facebook {
+        font-size: 0.9em;
+        padding: 10px 0;
+        border-bottom: 1px solid #231f20;
+    }
+    
+    #facebook div {
+        display: inline-block;
+        padding-left: 10px;
+    }
+    
+    #facebook div button {
+        width: 50px;
+    }
+    
+    #facebook div button i {
+        padding-right: 5px;
+    }
+    
+    #facebook div span {
+        background-color: #fff;
+        margin-left: 5px;
+        padding: 1px;
+        border: 1px solid #90949c;
+        display: inline-block;
+        font-size: 0.95em;
+        position: relative;
+    }
+    
+    #facebook div span:after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px;
+        border-right-color: #90949c;
+        position: absolute;
+        left: 0;
+        bottom: 25%;
+        transform: translateX(-100%);
+    }
+    
+    #facebook div span:before {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px;
+        border-right-color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 25%;
+        transform: translateX(-87%);
+        z-index: 999;
+    }
+    
+    #twitter {
+        padding: 10px 0;
+        border-bottom: 1px solid #231f20;
+        font-size: 0.9em;
+    }
+    
+    #footer {
+        padding: 10px 0;
+        font-size: 0.9em;
+        font-style: italic;
+    }
+    /*#dropdown-menu {
+        position: fixed;
+        width: 18px;
+        background-color: #82ca9c;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transition: all 1s ease-in-out;
+        overflow: hidden;
+    }
+    
+    #dropdown-menu i {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(50%);
+    }
+    
+    #dropdown-menu i:hover {
+        cursor: pointer;
+    }*/
+    
+    #main-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 18px;
+        background-color: #82ca9c;
+        height: 100%;
+        /*        overflow: hidden;*/
+    }
+    
+    #main-menu> i {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(50%);
+    }
+    
+    #main-menu i:hover {
+        cursor: pointer;
+    }
+    
+    #menu-wrapper {
+        padding: 10px 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        transform: translateX(-320px);
+        background-color: #82CA9C;
+        width: 320px;
+        height: 100%;
+        transition: all 0.3s ease-in-out;
+        z-index: 999;
+    }
+    /*#main-menu:hover #dropdown-menu {
+    display: none;
+}*/
+    
+    #main-menu:hover #menu-wrapper {
+        transform: translateX(0);
+    }
